@@ -6,6 +6,16 @@ Small add-on to use WordPress as a back-end for a php site
 
 ## Example use 
 
+For displaying certain post or page by using pid  for instance p = 100  : 
+
+
+```php
+require_once("init.php");
+echo "<title>  wptitle(100);  </title>"; // displays the title for post 100 
+echo "<title>  wpcon(100);  </title>";   // displays the content for post 100 
+```
+
+
 For displaying a form made by contact form - 7  : 
 
 
